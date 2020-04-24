@@ -1,0 +1,15 @@
+[package]
+name = "tide-0-8-cookie-bug"
+version = "0.1.0"
+authors = ["Cassie Meharry <cassie@prophetessof.tech>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+surf = "2.0.0-alpha.1"
+tide = "0.8.0"
+
+[dependencies.async-std]
+features = ["attributes"]
+version = "^1.5"
